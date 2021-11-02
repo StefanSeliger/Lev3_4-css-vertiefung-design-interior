@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lev3_4 css vertiefung design interiors</title>
+    <link rel="stylesheet" href="assets/css/style.css">
+</head>
+
+<body>
+    <header id="header">
+        <div>
+            <section>
+                <h1>H&H</h1>
+                <p>~ THE INTERIOR STANDARD ~</p>
+            </section>
+            <img src="assets/img/design-interior-1.jpg" alt="Interior Image">
+        </div>
+    </header>
+    <!-- Navigation -->
+    <aside>
+        <!-- Logo -->
+        <img src="assets/img/logo.png" alt="logo">
+        <nav>
+            <ul>
+                <li><a href="#header" class="sansSerif">H&H</a></li>
+                <li><a href="#our" class="sansSerif">OUR STORY</a></li>
+                <li><a href="#designs" class="sansSerif">DESIGNS</a></li>
+                <li><a href="#contact" class="sansSerif">CONTACT</a></li>
+            </ul>
+        </nav>
+        <div>
+            <span>–––</span>
+            <span>–––</span>
+            <span>–––</span>
+            <span>–––</span>
+        </div>
+    </aside>
+    <main>
+        <!-- Our Story -->
+        <article id="our">
+            <img src="assets/img/story.jpg" alt="Interior Image">
+            <div>
+                <h2>OUR STORY</h2>
+                <p class="sansSerif">Furnishing your home can be quite overwhelming at times, at least that's how it was
+                    for us.</p>
+                <p class="sansSerif">H&H was born to help others going through the maze that is interior design.</p>
+                <p class="sansSerif">We decided to curate interior design modern trends, inspirations, tips and tricks
+                    from the vast
+                    interior collective to help you bring your home to life.</p>
+            </div>
+        </article>
+        <!-- Featured -->
+        <section  id="designs">
+            <h2>FEATURED</h2>
+            <p class="sansSerif">Take a look at some of our featured picks that have made editorial debuts</p>
+            <div>
+                <figure>
+                    <img src="assets/img/features1.jpg" alt="Essplatz">
+                    <figcaption class="sansSerif">Image by Michal Jarmoluk from Pixabay</figcaption>
+                </figure>
+                <figure>
+                    <img src="assets/img/features2.jpg" alt="Sofa">
+                    <figcaption class="sansSerif">Image by StockSnap from Pixabay</figcaption>
+                </figure>
+                <figure>
+                    <img src="assets/img/features3.jpg" alt="Wohnzimmer">
+                    <figcaption class="sansSerif">Image by miapirttila from Pixabay</figcaption>
+                </figure>
+            </div>
+            <iframe width="450" height="280" src="https://www.youtube.com/embed/GI71fXmRrLM"
+                title="YouTube video player" frameborder="0"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                allowfullscreen></iframe>
+        </section>
+        <!-- Get in touch -->
+        <section id="contact">
+            <div>
+                <article>
+                    <h2>GET IN TOUCH</h2>
+                    <p class="sansSerif">We would love to hear from you!</p>
+                    <p class="sansSerif">If you would like to receive our monthly catalogue subscribe by filling in the
+                        form with your name
+                        and email address</p>
+                </article>
+                <form action="" onsubmit="return false">
+                    <label for="name">Name</label>
+                    <input type="text" name="name" id="name" placeholder="Enter Name">
+                    <label for="mail">Email</label>
+                    <input type="email" name="mail" id="mail" placeholder="Enter Email">
+                    <label for="message">Message</label>
+                    <input type="text" name="message" id="message" placeholder="Optional Message">
+                    <input type="submit" value="Submit" id="submitButton" onclick="submitData()">
+                </form>
+            </div>
+        </section>
+    </main>
+    <footer>
+        <div>
+            <p>COPYRIGHT 2019</p>
+            <p>CREATED WITH LOVE</p>
+            <nav>
+                <ul>
+                    <li><a href="#">PRIVACY</a></li>
+                    <li><a href="#">TERMS</a></li>
+                    <li><a href="#">CONTACT</a></li>
+                </ul>
+            </nav>
+        </div>
+    </footer>
+
+    <script src="assets/js/main.js"></script>
+</body>
+
+</html>
