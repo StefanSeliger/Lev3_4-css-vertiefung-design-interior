@@ -7,3 +7,11 @@ function submitData() {
     console.log(mail.value)
     console.log(message.value)
 }
+let navigation = document.getElementById("navigation")
+let mobileNav = document.getElementById("mobileNav")
+
+function menu() {
+    navigation.style.display = "block"
+    mobileNav.style.display = "none"
+    navigation.style.fontSize = "0.8rem"
+}
